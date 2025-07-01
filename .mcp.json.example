@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "feather-code": {
+      "command": "python3",
+      "args": ["/absolute/path/to/feather-code/feather_code.py"],
+      "env": {
+        "GITHUB_PAT": "${GITHUB_PAT:-}",
+        "GITHUB_OWNER": "${GITHUB_OWNER:-}",
+        "GITHUB_REPO": "${GITHUB_REPO:-}"
+      },
+      "description": "Feather Code - Lightweight GitHub integration MCP"
+    }
+  }
+}
