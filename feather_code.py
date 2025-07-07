@@ -373,7 +373,7 @@ async def handle_list_tools() -> List[types.Tool]:
                     "draft": {
                         "type": "boolean",
                         "description": "Create as draft PR",
-                        "default": false
+                        "default": False
                     }
                 },
                 "required": ["title", "head"],
